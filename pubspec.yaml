@@ -1,0 +1,31 @@
+name: gigmint
+description: Decentralized freelance marketplace with smart contract escrow and instant USDC payments.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web3dart: ^2.7.3
+  walletconnect_dart: ^0.4.0
+  http: ^1.2.0
+  provider: ^6.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.0.7
+  file_picker: ^6.1.1
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
